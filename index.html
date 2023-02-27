@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="allcontents">
+        <div class="container">
+            <div class="contents">
+                <form action="api.flit.com.br/submeterDados" class="formulario" id="forms">
+                        <label for="nameInput">Name</label>
+                        <br>
+                        <input class="inputs" type="text" id="nameInput" placeholder="Enter your name:">
+                        <br>
+                        <label for="addressInput">Address</label>
+                        <br>
+                        <input class="inputs" type="text" id="addressInput" placeholder="Enter your Address:">
+                        <br>
+                        <div class="checkbox">
+                            <section class="checks">
+                                <section class="checktitle">
+                                    <span class="titleLabel">Days Of The Week</span>
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox1">Sunday</label>
+                                    <input type="checkbox" id="checkbox1" name="Domingo">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox2">Monday</label>
+                                    <input type="checkbox" id="checkbox2" name="Segunda">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox3">Tuesday</label>
+                                    <input type="checkbox" id="checkbox3" name="Terça">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox4">Wednesday</label>
+                                    <input type="checkbox" id="checkbox4" name="Quarta">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox5">Thursday</label>
+                                    <input type="checkbox" id="checkbox5" name="Quinta">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox6">Friday</label>
+                                    <input type="checkbox" id="checkbox6" name="Sexta">
+                                </section>
+                                <section class="check">
+                                    <label class="label" for="checkbox7">Saturday</label>
+                                    <input type="checkbox" id="checkbox7" name="Sábado">
+                                </section>
+                            </section>
+                        </div>
+                        
+                        <!-- >
+                            Days Of The Week
+                            Sunday
+                            Monday
+                            Tuesday
+                            Wednesday
+                            Thursday
+                            Friday
+                            Saturday</ -->
+                        <label for="timeOpen">Opening Time</label>
+                        <br>
+                        <input class="inputs" type="time" name="timeOpen" id="timeOpen">
+                        <br>
+                        <label for="timeExit">Closing Time</label>
+                        <br>
+                        <input class="inputs" type="time" name="timeExit" id="timeExit">
+                        <br>
+                        <input class="inputs" type="submit" value="Submit">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
